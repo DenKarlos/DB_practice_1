@@ -1,0 +1,24 @@
+-- CREATE TABLE students(
+--     id SERIAL PRIMARY KEY,
+--     names VARCHAR(50),
+--     age INT,
+--     fp_language VARCHAR(50),
+--     sp_language VARCHAR(50));
+-- INSERT INTO students(names, age, fp_language, sp_language) VALUES
+--     ('Bakyt', 23, 'Python', 'C++'),
+--     ('Aygul', 46, 'Python', 'Java'),
+--     ('Jika', 13, 'C', 'Ruby_On_Rails'),
+--     ('Ermek', 16, 'Java', 'C'),
+--     ('Artem', 55, 'C#', 'Java'),
+--     ('Roma', 31, 'Pascal', 'C'),
+--     ('Beka', 25, 'C#', 'JavaScript');
+-- select names, fp_language, sp_language from students
+-- select age from students WHERE age > 30 
+
+-- select * from students WHERE fp_language = 'Python' or fp_language ='C#' or sp_language = 'Python' or sp_language ='C#'
+    -- select * from students WHERE fp_language = 'Python' AND sp_language = 'C#' or fp_language ='C#' AND sp_language = 'Java'
+    -- select * from students where fp_language = 'Java' or sp_language = 'Java' order by age ASC limit 1;
+    -- DELETE from students where MOD(id, 2) = 1;
+    -- DROP TABLE students;
+    -- ????????
+    -- DROP DATABASE programmers;
